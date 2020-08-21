@@ -1,0 +1,60 @@
+{
+  "employees": [
+    {
+      "id": 10000,
+      "name": "Sophie",
+      "email": "sophie@abc.com",
+      "phone": "8473 8234",
+      "location": "Yishun",
+      "referrer": ""
+    },
+    {
+      "id": 10101,
+      "name": "Sebastian",
+      "email": "sebastian@abc.com",
+      "phone": "8473 8234",
+      "location": "Ang Mo Kio",
+      "referrer": 10000
+    },
+    {
+      "id": 31202,
+      "name": "Steve",
+      "email": "steve@abc.com",
+      "phone": "9485 8234",
+      "location": "Toa Payoh",
+      "referrer": 10101
+    },
+    {
+      "id": 32311,
+      "name": "Annie",
+      "email": "annie@abc.com",
+      "phone": "8474 3434",
+      "location": "Ang Mo Kio",
+      "referrer": 10000
+    },
+    {
+      "id": 34234,
+      "name": "Jenny",
+      "email": "jenny@abc.com",
+      "phone": "9787 3434",
+      "location": "East Coast",
+      "referrer": 10000
+    },
+    {
+      "id": 45343,
+      "name": "Bonnie",
+      "email": "bonnie@abc.com",
+      "phone": "9685 4533",
+      "location": "East Coast",
+      "referrer": 34234
+    },
+    {
+      "id": 64324,
+      "name": "Fanny",
+      "email": "fanny@abc.com",
+      "phone": "8696 6433",
+      "location": "West Coast",
+      "referrer": 34234
+    }
+  ]
+}
